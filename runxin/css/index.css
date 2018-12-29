@@ -1,0 +1,238 @@
+@charset "utf-8";
+/*banner*/
+.banner{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background: url(../images/banner.jpg) no-repeat 50% top;
+}
+.bannerSecondImg{
+	position: relative;
+	top: -60px;
+	overflow: hidden;
+}
+.bannerSecondImg dl{
+	float: left;
+	margin-right:2%;
+	width: 32%;
+}
+.bannerSecondImg dl:last-child{
+	margin-right: 0;
+}
+.bannerSecondImg dl dt{
+	width: 100%;
+	margin-bottom: 17px;
+}
+.bannerSecondImg dl dt img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bannerSecondImg dl dd h3{
+	font: 30px/48px "微软雅黑";
+	text-align: center;
+	color: #282828;
+}
+.bannerSecondImg dl dd h4{
+	font: 20px/28px "微软雅黑";
+	text-align: center;
+	color: #737373;
+}
+.bannerSecondImg dl dd p{
+	font-size: 20px;
+	margin-top: 10px;
+	color: #737373;
+	text-align: center;
+}
+/**/
+.pageBtn{
+	display: block;
+	margin: 0 auto;
+	font: 30px/80px "微软雅黑";
+	color: #fff;
+	background: #e6c37e;
+	width: 630px;
+	text-align: center;
+	margin-bottom: 47px;
+}
+.title1{
+	height: 180px;
+}
+.title1 img{
+	display: block;
+	height: 100%;
+}
+.centerAddress{
+	background: #faf6eb;
+	padding: 30px 0 40px;
+	margin-bottom: 50px;
+}
+.centerAddress .modularTitle{
+	margin-bottom: 20px;
+}
+.centerAddCont{
+	overflow: hidden;
+}
+.centerAddCont .cAHalf{
+	width: 540px;
+	float: left;
+}
+.centerAddCont .cAHalf h3{
+	font: 40px/50px "微软雅黑";
+	color: #e6c37e;
+}
+.centerAddCont .cAHalf h4{
+	font: 32px/42px "微软雅黑";
+	color: #e6c37e;
+	margin-bottom: 40px;
+}
+.centerAddCont .cAHalf ul li{
+	background: url(../images/addressIcon.png) no-repeat left center;
+	background-size: auto 32px;
+	padding-left: 64px;
+	font: 22px/32px "微软雅黑";
+	margin-bottom: 30px;
+	color: #737373;
+}
+.centerAddCont .cAHalf img{
+	display: block;
+	width: 100%;
+}
+.moreConsultant{
+	display: block;
+	width: 290px;
+	height: 80px;
+	background: #e6c37e;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto 80px;
+	font: 30px/80px "微软雅黑";
+}
+/*咨询范围*/
+.counselScope{
+	background: #faf6eb;
+	padding: 30px 0 0;
+}
+.counselScope .scopeList{
+	overflow: hidden;
+	position: relative;
+	margin-top: -110px;
+}
+.counselScope .scopeList:nth-child(1){
+	margin-top: 0;
+}
+.counselScope .scopeList .scopeTitle{
+	float: left;
+	width: 154px;
+	height: 360px;
+}
+.counselScope .scopeList .scopeText{
+	background: #fff;
+	height: 180px;
+	float: left;
+	box-sizing: border-box;
+	font: 26px/54px "微软雅黑";
+	color: #737373;
+	margin-top: 80px;
+}
+.counselScope .scopeList .scopeText p{
+	float: left;
+	width: 680px;
+	padding: 16px 40px 0 60px;
+}
+.counselScope .scopeList .scopeText a{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 59px;
+	font: 28px/59px "微软雅黑";
+	text-align: center;
+	background: #e6c37e;
+	color: #fff;
+	margin-top: 122px;
+}
+.counselScope .modularTitle h4{
+	margin-bottom: 0;
+}
+/*咨询评价*/
+.review{
+	padding: 30px 0 60px;
+}
+.review .content img{
+	display: block;
+	width: 100%;
+}
+.apProcess{
+	padding: 30px 0 30px;
+	background: #faf6eb;
+}
+.apProcess .content img{
+	display: block;
+	width: 100%;
+}
+.reading .cAHalf img{
+	display: block;
+	width: 100%;
+}
+.reading .cAHalf h3{
+	text-align: center;
+	font: 28px/50px "微软雅黑";
+	color: #282828;
+}
+.reading .cAHalf h4{
+	text-align: center;
+	font: 16px/24px "微软雅黑";
+	color: #737373;
+	margin-bottom: 40px;
+}
+.reading .cAHalf p{
+	font: 20px/36px "微软雅黑";
+	color: #737373;
+	margin-bottom: 30px;
+}
+.reading .textHalf{
+	padding: 50px 40px 0;
+	box-sizing: border-box;
+}
+.reading .overflowCont{
+	border: 1px solid #e5e5e5;
+	margin-bottom: 70px;
+}
+.reading .textHalf a{
+	display: block;
+	width: 142px;
+	height: 32px;
+	text-align: center;
+	background: #e6c37e;
+	color: #fff;
+	font: 18px/32px "微软雅黑";
+}
+/*联系我们*/
+.contactUs{
+	background: #faf6eb;
+	padding: 30px 0;
+}
+.contactUs .overflowCont .contactCue{
+	font: 26px/42px "微软雅黑";
+	text-align: center;
+	background: #e6c37e;
+	color: #fff;
+	padding: 10px;
+	margin: 20px 50px 0 350px;
+	display: inline-block;
+}
+.contactUs .overflowCont{
+	margin-bottom: 45px;
+}
+.mapCont{
+	height: 529px;
+	border: 1px solid #7f7b75;
+	overflow: hidden;
+}
+.mapCont img{
+	display: block;
+	height: 100%;
+}
+.reading{
+	padding-top:30px;
+}
